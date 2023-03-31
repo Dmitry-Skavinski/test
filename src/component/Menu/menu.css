@@ -1,0 +1,23 @@
+.menu {
+    height: 64px;
+    background: linear-gradient(90deg, rgba(246, 246, 246, 0)
+        1.47%, rgba(163, 210, 155, 0.92) 7.25%, #319F1C 14.68%,
+        #309E1B 50.68%, #319F1C 84.33%, rgba(147, 202, 137, 0.79)
+        91.68%, rgba(246, 246, 246, 0) 99.05%
+    );
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 16px;
+    line-height: 19px;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li {
+    list-style-type: none;
+}

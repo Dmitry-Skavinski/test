@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    padding-inline: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_top > * {
+    justify-self: center;
+    align-self: center;
+}
+
+.header_working-hours{
+    font-size: 16px;
+    line-height: 24px;
+    width: min-content;
+}
+
+.header_working-hours p {
+    padding: 0;
+    width: max-content;
+}
+
+.header_order-3d-design {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.header_order-3d-design_image {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    background-image: url('/images/3d.svg');
+    background-color: #E4E4E4;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header_order-3d-design p {
+    padding-block-end: 8px;
+    border-bottom: 1px solid black;
+}
+
+.header_contacts {
+    display: flex;
+    gap: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #363130;
+}
+
+.header_contacts_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.header_contacts_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header_contacts_order-call {
+    margin-left: 24px;
+    background-color: #319F1C;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    height: 100%;
+    padding: 22px 56px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
