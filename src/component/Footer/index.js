@@ -1,11 +1,13 @@
 import React from "react";
+import images from '../../images'
 import "./footer.css";
+import alfadigital from "./images/alfadigital.png"
 
 export const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_column footer_column__special">
-                <img src="/images/logo.png" alt="logo"/>
+                <img src={images.logo} alt="logo"/>
                 <button>
                     Заказать звонок
                 </button>
@@ -49,15 +51,15 @@ export const Footer = () => {
                     Делимся крутыми проектами в <br/> соц.сетях.Подписывайтесь!
                 </p>
                 <div className="footer_logos">
-                    <img src="/images/vk.svg" alt="vk"/>
-                    <img src="/images/instagram.svg" alt="instagram"/>
-                    <img src="/images/fb.svg" alt="facebook"/>
-                    <img src="/images/youtube.svg" alt="youtube"/>
+                    <img src={images.vk} alt="vk"/>
+                    <img src={images.instagram} alt="instagram"/>
+                    <img src={images.fb} alt="facebook"/>
+                    <img src={images.youtube} alt="youtube"/>
                 </div>
                 <p className="footer_paragraph__small">
                     Разработка и продвижение сайта:
                 </p>
-                <img src="/images/alfadigital.png" alt="alfa digital"/>
+                <img src={alfadigital} alt="alfa digital"/>
             </div>
         </footer>
     );

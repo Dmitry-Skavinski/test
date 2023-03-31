@@ -1,0 +1,134 @@
+.blog-case {
+    padding-inline: 170px;
+}
+
+.blog-case h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 42px;
+    color: #363130;
+    width: max-content;
+    margin: 0;
+}
+
+.blog-case_description {
+    margin-block: 28px 60px;
+}
+
+.blog-case_form {
+    width: max-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 30px 40px 45px;
+    width: 775px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    background-color: white;
+}
+
+.blog-case_form .big-gift {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.blog-case_form .small-gift {
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    transform: translate(0, 50%) rotate(45deg);
+}
+
+.blog-case_form h2 {
+    margin-block-end: 20px;
+    color: #319F1C;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.blog-case_form-description {
+    margin-block-end: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.blog-case_form-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 12px;
+    column-gap: 30px;
+}
+
+.blog-case_form-field {
+    padding: 10px 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #319F1C;
+    width: 333px;
+    background-color: white;
+}
+
+.blog-case_form-select select {
+    padding: 10px 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #319F1C;
+    background-color: white;
+    appearance: none;
+    color: #8A8A8A;
+}
+
+.blog-case_form-select {
+    position: relative;
+    width: min-content;
+}
+
+.blog-case_form-select::after {
+    content: '';
+    height: 9px;
+    width: 9px;
+    background-color: black;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    position: absolute;
+    right: 30px;
+    top: 17px;
+}
+
+.blog-case_form-field:focus {
+    outline: none;
+}
+
+button.blog-case_form-field {
+    background-color: #319F1C;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+.blog-case_form-privacy {
+    grid-column: 2;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.blog-case_form-privacy img {
+    margin-inline-end: 10px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
