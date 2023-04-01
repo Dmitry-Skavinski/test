@@ -4,11 +4,32 @@ import "./menu.css";
 export const Menu = () => {
     return (
     <menu className="menu">
-        <li>Каталог домов ▼</li>
-        <li>Услуги ▼</li>
-        <li>О нас ▼</li>
+        <li>Каталог домов ▼
+            <ul>
+                <li>lorem</li>
+                <li>ipsum</li>
+            </ul>
+        </li>
+        <li>Услуги ▼
+            <ul>
+                <li>lorem</li>
+                <li>ipsum</li>
+            </ul>
+        </li>
+
+        <li>О нас ▼
+            <ul>
+                <li>lorem</li>
+                <li>ipsum</li>
+            </ul>
+        </li>
         <li>Контакты</li>
-        <li>Блог ▼</li>
+        <li>Блог ▼
+            <ul>
+                <li>lorem</li>
+                <li>ipsum</li>
+            </ul>
+        </li>
     </menu>
     );
 }

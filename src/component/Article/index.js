@@ -5,7 +5,7 @@ export const Article = ({ header, description, children}) => {
     return (
         <article className="article">
             <h2 className="article_header">
-                { header || null}
+                { header }
             </h2>
             <h3 className="article_description">
                 { description }

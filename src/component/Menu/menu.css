@@ -22,3 +22,39 @@
 .menu li {
     list-style-type: none;
 }
+
+.menu > li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 100%);
+    z-index: 5;
+    background-color: #595959;
+    width: 340px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    padding: 25px 40px 34px 27px;
+}
+
+.menu ul li {
+    padding-block-end: 8px;
+    margin-block-start: 10px;
+    border-block-end: 1px solid white;
+}
+
+.menu ul li:last-child {
+    border: none;
+}
+
+.menu > li:hover ul {
+    display: block;
+}
