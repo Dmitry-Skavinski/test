@@ -114,6 +114,7 @@
 
 .blog-case_form-field {
     width: 333px;
+    max-width: 100%;
 }
 
 .blog-case_form-select select {
@@ -129,6 +130,7 @@
 }
 
 .blog-case_form-select {
+    max-width: 100%;
     position: relative;
     width: min-content;
 }
@@ -164,6 +166,7 @@
 .underForm-right {
     position: absolute;
     right: 0;
+    z-index: -1;
     top: 650px;
 }
 
@@ -184,4 +187,49 @@
     left: -170px;
     bottom: -20%;
     transform: rotate(15deg);
+}
+
+@media (max-width: 768px) {
+    .blog-case {
+        padding-inline: 20px;
+        background-color: white;
+    }
+
+    .blog-case h1 {
+        width: 100%;
+        word-wrap: normal;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .blog-case_review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-case_form {
+        margin-block-end: 20px;
+        width: 100%;
+
+    }
+
+    .blog-case_form-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blog-case_form-fields button {
+        display: block;
+        padding: 10px 34px;
+    }
+
+    .blog-case_form .sky {
+        display: none;
+    }
+
+    .article .top-right {
+        display: none;
+    }
 }

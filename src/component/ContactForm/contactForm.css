@@ -74,3 +74,13 @@
     left: -170px;
     top: -400px;
 }
+
+@media (max-width: 768px) {
+    .contact-form {
+        margin-block: 20px;
+    }
+    
+    .contact-form form {
+        margin: 0;
+    }
+}
