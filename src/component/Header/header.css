@@ -91,10 +91,14 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     .header_top {
         flex-wrap: wrap;
         gap: 30px;
+    }
+
+    .header {
+        padding-inline: 40px;
     }
 }
 

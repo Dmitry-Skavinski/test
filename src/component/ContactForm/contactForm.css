@@ -38,6 +38,7 @@
 
 .contact-form button {
     padding: 14px 78px;
+    border-radius: 3px;
 }
 
 .contact-form .bottom-right {
@@ -75,6 +76,32 @@
     top: -400px;
 }
 
+@media (max-width: 1600px) {
+    .contact-form {
+        justify-content: flex-start;
+        margin-block: 40px
+    }
+
+    .contact-form form{
+        z-index: 2;
+        margin: 0;
+    }
+
+    .contact-form .left {
+        display: block;
+        max-width: 100%;
+        z-index: 1;
+    }
+
+    .contact-form .right {
+        display: none;
+    }
+
+    .contact-form .top-left {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .contact-form {
         margin-block: 20px;
@@ -89,11 +116,7 @@
         width: 100%;
     }
 
-    .contact-form form {
-        margin: 0;
-    }
-
     .contact-form img {
-        display: none;
+        display: none !important;
     }
 }

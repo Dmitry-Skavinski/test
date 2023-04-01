@@ -52,3 +52,13 @@
         gap: 40px;
     }
 }
+
+@media (max-width: 1600px) {
+    .footer {
+        padding: 40px;
+        flex-wrap: wrap;
+        gap: 60px;
+        position: relative;
+        z-index: 5;
+    }
+}

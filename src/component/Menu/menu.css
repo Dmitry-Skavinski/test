@@ -60,10 +60,15 @@
     display: block;
 }
 
+.menu > li[active] ul {
+    display: block;
+}
+
 
 @media (max-width: 1600px) {
     .menu {
         background: #309E1B;
         justify-content: space-around;
+        column-gap: 20px;
     }
 }

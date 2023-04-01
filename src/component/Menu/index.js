@@ -2,6 +2,7 @@ import React from "react";
 import "./menu.css";
 
 export const Menu = () => {
+
     return (
     <menu className="menu">
         <li>Каталог домов ▼

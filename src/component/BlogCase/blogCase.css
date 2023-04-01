@@ -195,27 +195,10 @@
         background-color: white;
     }
 
-    .blog-case h1 {
-        width: 100%;
-        word-wrap: normal;
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    .blog-case_review {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .blog-case_form {
         margin-block-end: 20px;
         width: 100%;
 
-    }
-
-    .blog-case_form .big-gift {
-        display: none;
     }
 
     .blog-case_form-fields {
@@ -234,6 +217,43 @@
     }
 
     .article .top-right {
+        display: none;
+    }
+}
+
+@media (max-width: 1600px) {
+    .blog-case {
+        margin-block-start: 500px;
+        padding: 40px 40px 0;
+        background-color: white;
+    }
+
+    .blog-case h1 {
+        width: 100%;
+        word-wrap: normal;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .article .top-right {
+        display: none;
+    }
+
+    .blog-case_form {
+        margin-bottom: 60px;
+    }
+
+    .blog-case .sky {
+        display: none;
+    }
+
+    .blog-case_review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-case_form .big-gift {
         display: none;
     }
 }
