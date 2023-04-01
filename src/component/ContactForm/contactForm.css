@@ -1,0 +1,76 @@
+.contact-form {
+    margin-block: 226px 115px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.contact-form form {
+    margin-inline-end: 130px;
+    max-width: 507px;
+    width: 100%;
+    position: relative;
+}
+
+.contact-form h2 {
+    color: #2E2C2C;
+    width: max-content;
+    margin-block: 0 20px;
+}
+
+.contact-form p {
+    font-size: 18px;
+    line-height: 21px;
+    width: max-content;
+    margin-block-end: 48px;
+}
+
+.contact-form textarea {
+    resize: none;
+    margin-block-end: 32px;
+    width: 100%;
+}
+
+.contact-form input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 14px 78px;
+}
+
+.contact-form .bottom-right {
+    position: absolute;
+    z-index: -1;
+    right: -130px;
+    bottom: -80px;
+}
+
+.contact-form form .top-left {
+    position: absolute;
+    z-index: -1;
+    left: -200px;
+    top: -60px;
+}
+
+.contact-form .left {
+    position: absolute;
+    z-index: -1;
+    bottom: -120px;
+    left: -170px;
+}
+
+.contact-form .right {
+    position: absolute;
+    z-index: -1;
+    right: -170px;
+    top: -60px;
+}
+
+.contact-form .top-left {
+    position: absolute;
+    z-index: -1;
+    left: -170px;
+    top: -400px;
+}

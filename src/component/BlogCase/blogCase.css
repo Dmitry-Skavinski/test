@@ -14,6 +14,44 @@
 
 .blog-case_description {
     margin-block: 28px 60px;
+    font-family: 'Raleway';
+}
+
+.blog-case_review {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-case_review .video-review {
+    padding: 15px 60px;
+    height: min-content;
+    width: max-content;
+    justify-self: center;
+    position: relative;
+    top: 18%;
+    color: #319F1C;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.blog-case_review .video-review::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -11px);
+    width: 76px;
+    height: 76px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url('/images/play.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .blog-case_form {
@@ -25,6 +63,7 @@
     font-family: 'Raleway', sans-serif;
     position: relative;
     background-color: white;
+    margin-bottom: 260px;
 }
 
 .blog-case_form .big-gift {
@@ -38,8 +77,16 @@
     position: absolute;
     bottom: 0;
     left: 80px;
-    transform: translate(0, 50%) rotate(45deg);
+    transform: translate(0, 40%) rotate(45deg) scale(0.5);
 }
+
+.blog-case_form .sky {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-15%, 60%);
+    z-index: -1;
+}
+
 
 .blog-case_form h2 {
     margin-block-end: 20px;
@@ -66,14 +113,7 @@
 }
 
 .blog-case_form-field {
-    padding: 10px 34px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    border: 1px solid #319F1C;
     width: 333px;
-    background-color: white;
 }
 
 .blog-case_form-select select {
@@ -104,18 +144,6 @@
     top: 17px;
 }
 
-.blog-case_form-field:focus {
-    outline: none;
-}
-
-button.blog-case_form-field {
-    background-color: #319F1C;
-    color: white;
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: 600;
-}
-
 .blog-case_form-privacy {
     grid-column: 2;
     font-size: 12px;
@@ -130,5 +158,30 @@ button.blog-case_form-field {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: -2;
+}
+
+.underForm-right {
+    position: absolute;
+    right: 0;
+    top: 650px;
+}
+
+.left-tree {
+    position: absolute;
     z-index: -1;
+    left: 0;
+    top: 400px;
+}
+
+.article .top-right {
+    right: -170px;
+    top: -80px;
+}
+
+.article .bottom-left {
+    position: absolute;
+    left: -170px;
+    bottom: -20%;
+    transform: rotate(15deg);
 }

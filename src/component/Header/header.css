@@ -18,6 +18,8 @@
 }
 
 .header_working-hours{
+    font-family: 'Raleway';
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     width: min-content;
@@ -79,4 +81,5 @@
     color: white;
     border: none;
     cursor: pointer;
+    box-shadow: 0px 4px 5px #319F1C;
 }

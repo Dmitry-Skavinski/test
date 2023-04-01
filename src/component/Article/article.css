@@ -1,0 +1,43 @@
+.article {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.article > * {
+    margin: 0;
+}
+
+.article h2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 52px;
+    color: #363130;
+}
+
+.article_description {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #676262;
+}
+
+.article_content {
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #319F1C;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 24px 60px 34px 40px;
+}
+
+.article_description + .article_content {
+    margin-top: 30px;
+}
+
+.article_content p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
