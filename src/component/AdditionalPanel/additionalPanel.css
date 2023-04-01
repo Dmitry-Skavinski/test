@@ -1,0 +1,31 @@
+.additional-panel {
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.additional-panel .item {
+    width: 87px;
+    height: 64px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+@media (max-width: 860px) {
+    .additional-panel {
+        top: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .additional-panel {
+        top: 100px;
+        transform: scale(0.75);
+    }
+}
