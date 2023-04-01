@@ -39,19 +39,12 @@
     border-radius: 3px;
 }
 
-.blog-case_review .video-review::after {
-    content: '';
+.blog-case_review .video-review img {
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -11px);
-    width: 76px;
-    height: 76px;
-    background-color: white;
+    border: 10px solid white;
     border-radius: 50%;
-    background-image: url('/images/play.svg');
-    background-repeat: no-repeat;
-    background-position: center;
+    left: -26px;
+    top: -10px;
 }
 
 .blog-case_form {

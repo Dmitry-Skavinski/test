@@ -6,6 +6,7 @@ import fb from './fb.svg';
 import youtube from './youtube.svg';
 import instagram from './instagram.svg';
 import logo from './logo.png';
+import play from './play.svg';
 
 export default {
     phone,
@@ -15,5 +16,6 @@ export default {
     youtube,
     logo,
     instagram,
-    fb
+    fb,
+    play
 }

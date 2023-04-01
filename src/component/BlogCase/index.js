@@ -12,6 +12,7 @@ import thing from "./images/thing.png";
 import leaf from "./images/leaf.png";
 import Gallery from "../Gallery";
 import ContactForm from "../ContactForm";
+import images from "../../images";
 
 export const BlogCase = () => {
     return (
@@ -52,7 +53,10 @@ export const BlogCase = () => {
                     <img className="small-gift" src={gift} alt="gift"/>
                     <img className="sky" src={formBottomSky} alt="sky"/>
                 </form>
-                <button className="video-review">видеоотзыв</button>
+                <button className="video-review">
+                    видеоотзыв
+                    <img src={images.play} />
+                </button>
             </section>
             <img className="top-right" src={topHouse} alt="house"/>
             <img className="top-right" src={topSky} alt="sky"/>
