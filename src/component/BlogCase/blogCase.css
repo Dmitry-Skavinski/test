@@ -214,6 +214,10 @@
 
     }
 
+    .blog-case_form .big-gift {
+        display: none;
+    }
+
     .blog-case_form-fields {
         display: flex;
         flex-direction: column;

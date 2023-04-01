@@ -117,4 +117,9 @@
     .header {
         padding-inline: 20px;
     }
+
+    .header_contacts_icons {
+        justify-content: flex-start;
+        gap: 20px;
+    }
 }

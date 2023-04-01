@@ -79,8 +79,21 @@
     .contact-form {
         margin-block: 20px;
     }
-    
+
+    .contact-form h2 {
+        word-wrap: normal;
+        width: 100%;
+    }
+
+    .contact-form p {
+        width: 100%;
+    }
+
     .contact-form form {
         margin: 0;
+    }
+
+    .contact-form img {
+        display: none;
     }
 }
