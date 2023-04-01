@@ -1,5 +1,5 @@
 .menu {
-    height: 64px;
+    min-height: 64px;
     background: linear-gradient(90deg, rgba(246, 246, 246, 0)
         1.47%, rgba(163, 210, 155, 0.92) 7.25%, #319F1C 14.68%,
         #309E1B 50.68%, #319F1C 84.33%, rgba(147, 202, 137, 0.79)
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 160px;
+    column-gap: 160px;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 16px;
@@ -17,6 +17,7 @@
     padding: 0;
     width: 100%;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 .menu li {
@@ -57,4 +58,12 @@
 
 .menu > li:hover ul {
     display: block;
+}
+
+
+@media (max-width: 1600px) {
+    .menu {
+        background: #309E1B;
+        justify-content: space-around;
+    }
 }
